@@ -1,0 +1,72 @@
+ * {
+	border: none;
+	font-family: "JetBrains Mono";
+	font-weight: bold;
+	font-size: 16px; }
+ window#waybar {
+	background: rgba(21, 18, 27, 0);
+	color: #cdd6f4; }
+
+ #workspaces button {
+	padding: 5px;
+	color: #636777;
+	margin-right: 5px; }
+ #workspaces button.active {
+	background-color: #2e3038;
+	border-radius: 10px; }
+ #workspaces button.focused {
+	color: #a6adc8;
+	background: #eba0ac;
+	border-radius: 10px; }
+ #workspaces button.urgent {
+	color: #3e414d;
+	background: #a6e3a1;
+	border-radius: 10px; }
+ #workspaces button:hover {
+	background: #3d3f4a;
+	color: #636777;
+	border-radius: 7px; }
+
+ #clock,
+ #clock.date,
+ #language,
+ #custom-wallpaper,
+ #window,
+ #pulseaudio,
+ #network,
+ #workspaces {
+	background: #1e1e2e;
+	opacity: 0.8;
+	padding: 0px 10px;
+	margin: 0px 0px;
+	margin-top: 5px;
+	border: 1px solid #181825; }
+
+ #workspaces {
+	background: #1e1e2e;
+	border-radius: 0px 10px 10px 0px;
+	margin-left: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-left: 0; }
+
+ #clock.date {
+	color: #90ad75;
+	border-radius: 10px 0px 0px 10px;
+	border-right: 0px;
+	margin-left: 10px }
+ #clock {
+	color: #fab387; }
+
+ #window {
+	border-radius: 10px;
+	margin-left: 60px;
+	margin-right: 60px; }
+
+ #network {
+	border-radius: 10px 0px 0px 10px; }
+ 
+ #pulseaudio.microphone {
+	border-radius: 0px 10px 10px 0px;
+	margin-right: 10px; }
+

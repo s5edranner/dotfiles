@@ -1,0 +1,64 @@
+{
+  "layer": "top",
+  "height": 41,
+  "width": 1920,
+
+  "modules-left": [
+    "clock#date",
+    "clock",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "network",
+    "hyprland/language",
+    "pulseaudio",
+    "pulseaudio#microphone"
+  ],
+
+  "clock": {
+    "tooltip": false
+  },
+  "clock#date": {
+    "format": "{:%d/%m}",
+    "interval": 60,
+    "tooltip": false
+  },
+  "hyprland/window": {
+    "format": "   {}   ",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "tooltip": true,
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "format-icons": {
+      "default": [
+        " ",
+        " ",
+        "  "
+      ]
+    }
+  },
+  "pulseaudio#microphone": {
+    "tooltip": "false",
+    "format": "{format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "   Muted",
+    "on-click": "pamixer --default-source -t",
+    "on-scroll-up": "pamixer --default-source -i 1",
+    "on-scroll-down": "pamixer --default-source -d 1"
+  },
+  "hyprland/language": {
+    "format-en": "en",
+    "format-uk": "ua",
+    "tooltip": false
+  },
+  "network": {
+    "tooltip": false,
+    "format-wifi": "   {}",
+    "format-disconnected": "⚠ "
+  }
+}
