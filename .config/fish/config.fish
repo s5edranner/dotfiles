@@ -3,14 +3,13 @@ if status is-interactive
 end
 
 alias l='ls'
-alias с='clear' # кр
 alias c='clear' # lat
 alias die='shutdown now'
 alias re='reboot'
-alias СлаваУкраїні='echo "ГероямСлава"'
-alias cwaybar='vim .config/waybar/config.jsonc'
-alias chypr='vim .config/hypr/hyprland.conf'
-alias cfish='vim .config/fish/config.fish'
+alias cwaybar='cd && vim .config/waybar/config.jsonc'
+alias chypr='cd && vim .config/hypr/hyprland.conf'
+alias cfish='cd && vim .config/fish/config.fish'
+alias cmako='cd && vim .config/mako/config'
 alias IPhone='nmcli d wifi c IPhone'
 alias WLAN='nmcli d wifi c WLAN1-002560'
 alias solve='expr'
