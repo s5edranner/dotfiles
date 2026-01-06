@@ -1,1 +1,1 @@
-i use arch btw
+dotfiles for laptop
